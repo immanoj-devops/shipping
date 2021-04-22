@@ -31,7 +31,7 @@ pipeline {
             steps {
                 script {
                     log.info 'WelcomeManoj'
-                    log.warning 'pleasDontTouchPo'
+                    log.warning 'pleasDontTouch'
                 }
             }
         }
