@@ -10,11 +10,12 @@ pipeline {
         stage('Sonar Scan') {
             steps {
                sh '''
+                    sonar-scanner \
+                    -Dsonar.projectKey=shipping \
+                    -Dsonar.sources=. \
+                    -Dsonar.host.url=http://172.31.74.214:9000 \
+                    -Dsonar.login=2f7e9cbf5079973a6f2258d0676c937738515ef7
 
-                mvn sonar:sonar \
-                -Dsonar.projectKey=shipping \
-                -Dsonar.host.url=http://172.31.74.214:9000 \
-                -Dsonar.login=7e6f032ffaf3e53f3a3f5e917575ffaad2993620
                '''
             }
         }
