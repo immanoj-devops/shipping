@@ -36,7 +36,7 @@ pipeline {
                             string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
                         }
                 script {
-                    log.info 'WelcomeManoj MSG=${URL} and you love '
+                    log.info 'WelcomeManoj MSG=${URL} and '
                     log.warning 'pleasDontTouchPo'
                 }
             }
