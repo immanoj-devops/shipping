@@ -30,8 +30,6 @@ pipeline {
         stage(''){
             steps {
                 script {
-                    log.info 'Welcome'
-log.warning 'pleasDontTouch'
 
                 }
             }
