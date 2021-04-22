@@ -29,10 +29,6 @@ log.warning 'pleasDontTouch'
 pipeline {
     agent any 
     stages {
-        stage(''){
-            steps {
-                
-            }
-        }
+        stage('')
     }
 }
