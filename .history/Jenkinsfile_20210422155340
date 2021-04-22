@@ -22,7 +22,7 @@
 // }
 
 @Library('roboshop') _
-nodejs("shipping")
+nodejs("frontend")
 
 
 // pipeline {
