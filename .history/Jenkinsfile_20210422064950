@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
 
-    stage('Maven Scan') {
+    stage('Sonar Scan') {
             steps {
                sh '''
                     sonar-scanner \
